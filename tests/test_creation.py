@@ -63,9 +63,9 @@ def test_folders(default_baked_project):
     expected_dirs = [
         'data',
         os.path.join('data', 'external'),
-        os.path.join('data', 'interim'),
+        #os.path.join('data', 'interim'),
         os.path.join('data', 'processed'),
-        os.path.join('data', 'raw'),
+        #os.path.join('data', 'raw'),
         'docs',
         'models',
         'notebooks',
